@@ -53,6 +53,7 @@ function Veg() {
       setDesc(response.data.meals[0].strInstructions);
     }
     apirequest(); //calling the function
+
   }
 
   return (
