@@ -52,7 +52,8 @@ function Veg() {
       const response = await axios.get(link);
       setDesc(response.data.meals[0].strInstructions);
     }
-    apirequest();
+    apirequest(); //calling the function
+
   }
 
   return (
