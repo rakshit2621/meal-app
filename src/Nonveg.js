@@ -48,7 +48,7 @@ function Nonveg() {
       const response = await axios.get(link);
       setDesc(response.data.meals[0].strInstructions);
     }
-    apirequest();
+    apirequest(); //the funstion
   }
 
   return (
